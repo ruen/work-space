@@ -1,0 +1,93 @@
+@media screen and (max-width: 459px) {
+
+    body {
+        min-widows: 320px;
+    }
+
+    .mobile-none {
+        display: none;
+    }
+
+    .mobile-on {
+        display: block;
+    }
+
+    .inner-block,
+    .personal-info-section,
+    .about-info-section,
+    .header-section .inner-block,
+    .newListSelected {
+        width: 300px;
+    }
+
+    .stylish-select .selectedTxt {
+        font-size: 20px;
+    }
+
+    .personal-info-section .form-holder input:placeholder-shown:not(:focus) + * {
+        width: 250px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .personal-info-section {
+        padding: 0 0 30px;
+    }
+
+    .personal-info-section h2,
+    .experience-info-section h2,
+    .js-level-section h2,
+    .about-info-section h2 {
+        padding: 60px 0 30px;
+    }
+
+    .experience-info-section {
+        padding: 0 0 43px;
+    }
+
+    .experience-info-section .form-holder {
+        padding: 0 50px;
+    }
+
+    .js-level-section {
+        padding: 0 0 72px;
+    }
+
+    .js-level-section .js-level-box .point.item-2,
+    .js-level-section .js-level-box .point.item-3,
+    .js-level-section .js-level-box .point.item-4 {
+        top: 14px;
+    }
+
+    .js-level-section .js-level-box .point.item-2 {
+        left: 69px;
+    }
+
+    .js-level-section .js-level-box .point.item-3 {
+        left: 150px;
+    }
+
+    .js-level-section .js-level-box .point.item-2:after {
+        left: 31px;
+    }
+
+    .js-level-section .js-level-box .point.item-3:after {
+        left: 50px;
+    }
+
+    .js-level-section .js-level-box .point.item-4 {
+        text-align: right;
+    }
+
+    .about-info-section footer {
+        padding: 39px 0 0;
+    }
+
+
+
+}

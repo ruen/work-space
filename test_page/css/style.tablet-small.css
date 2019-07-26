@@ -1,0 +1,56 @@
+@media screen and (max-width: 767px) {
+
+    .inner-block,
+    .personal-info-section,
+    .about-info-section,
+    .header-section .inner-block {
+        width: 440px;
+    }
+
+    .experience-info-section {
+        padding: 0 0 63px;
+    }
+
+    .experience-info-section .form-holder {
+        padding: 0 120px;
+    }
+
+    .experience-info-section .form-holder .input-box:last-child,
+    .experience-info-section .form-holder .input-box {
+        width: auto;
+        padding: 0 0 8px;
+        float: none;
+    }
+
+    .js-level-section .js-level-box .point {
+        line-height: 15px;
+    }
+
+    .js-level-section .js-level-box .point.item-2 {
+        width: 85px;
+        top: -15px; left: 95px;
+    }
+
+    .js-level-section .js-level-box .point.item-3 {
+        width: 130px;
+        top: -15px; left: 203px;
+    }
+
+    .js-level-section .js-level-box .point.item-4 {
+        width: 80px;
+        top: -15px;
+    }
+
+    .js-level-section .js-level-box .point.item-2:after {
+        bottom: -31px; left: 51px;
+    }
+
+    .js-level-section .js-level-box .point.item-3:after {
+        bottom: -31px; left: 89px;
+    }
+
+    .js-level-section .js-level-box .point.item-4:after {
+        bottom: -20px;
+    }
+
+}
